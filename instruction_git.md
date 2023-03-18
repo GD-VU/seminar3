@@ -2,8 +2,6 @@
 
 ## Общая инструкция по Git
 
-Какая-то общая информация.
-
 ## Создание нового репозитория
 
 Чтобы создать (инициализировать) новый репозиторий в текущей папке необходимо в терминале выполнить команду:
@@ -13,3 +11,20 @@
 ## Проверка состояния репозитория
 
 ## Добавление изменений к индексу
+
+## Фиксация изменений
+
+    git init
+    git add <filename>
+    git commit
+    git commit -m "message"
+    git commit -a
+    git commit -am "message"
+    git diff
+    git diff <hash1> <hash2>
+    git log
+    git log --oneline
+    git log --all
+    git log --all --oneline
+    git checkout <hash>
+    git checkout master
