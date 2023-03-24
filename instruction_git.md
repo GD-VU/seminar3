@@ -188,6 +188,3 @@
     git merge <branch_name>
 
     Merge-конфликт - обязательно создать и разрешить (все с коммитами)
-
-    git log --graph
-    git log --oneline --all --graph
