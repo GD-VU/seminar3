@@ -169,3 +169,13 @@
 
 ## Домашнее задание после второго семинара
 
+    git branch
+    git branch <branch_name>
+    git branch -d <branch_name>
+    git branch -D <branch_name>
+    git merge <branch_name>
+
+    Merge-конфликт - обязательно создать и разрешить (все с коммитами)
+
+    git log --graph
+    git log --oneline --all --graph
